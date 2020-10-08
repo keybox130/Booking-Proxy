@@ -1,0 +1,142 @@
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+div, a, h1, h2, h3, h4, h5, h6, p, input, button, option, select, form {
+  font-family: inherit;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+}
+img {
+  cursor: pointer;
+}
+
+.outer-div {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.spaced {
+  padding: 2px;
+}
+
+.secondary-text {
+  color: #575555;
+}
+
+.bold-title {
+  font-weight: bold;
+}
+
+.price-reviews-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.guests-outer {
+  border: 0.5px solid #757575;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.guests-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  border-top: 0.5px solid #757575;
+}
+
+.guests-info {
+  padding: 7px;
+}
+
+.guests-arrow {
+  padding-right: 10px;
+}
+
+.date-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 5px;
+}
+
+.check-in-container, .check-out-container {
+  margin-right: 60px;
+}
+
+.check-out-container {
+  border-left: 0.5px solid #757575;
+  padding-left: 15px;
+}
+
+.btn-text {
+  color: whitesmoke;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  background-color: red;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#app {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.price-disclaimer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.price-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-item, .price-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.price-total {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 0.5px solid #c7c7c7;
+}
+
+.price-amount, .price-item {
+  color: #757575;
+  font-weight: normal;
+}
+
+.price-title {
+  text-decoration: underline;
+}
