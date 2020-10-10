@@ -1,9 +1,3 @@
-.photo {
-  margin-top: 400px;
-}
-
-html, body, input {
+html, body {
   font-family: 'Montserrat', sans-serif;
-  padding: 0;
-  margin: 0;
 }

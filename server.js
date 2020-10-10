@@ -5,7 +5,7 @@ const cors = require('cors');
 const port = 3000;
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
-app.use(cors);
+app.use(cors());
 
 app.use('/stays/:roomId', express.static(path.join(__dirname, 'public')));
 
